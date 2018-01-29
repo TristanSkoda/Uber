@@ -1,0 +1,44 @@
+.howitworks{
+    padding: 5rem 0 0 17rem;
+   
+}
+.howitworks-top .list-card{
+    display: flex;
+}
+.howitworks-top .card{
+    width: 18rem;
+    margin-right: 3rem;
+}
+.howitworks-top .card img{
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+} .howitworks-top .card h1{
+    
+    font-size: 1.5rem;
+}
+.howitworks-top .card p{
+    
+    margin:1.5rem 0 3rem 0;
+}
+.howitworks-bottom{
+    display: flex;
+}
+.bottom-left{
+    padding: 7rem 6rem 0 0;
+}
+.bottom-left h1{
+    font-size: 2.3rem;
+    margin: 1rem 0 2rem 0;
+}
+.bottom-left p{
+    margin: 0 0 2rem 0;
+}
+.bottom-right{
+    
+    height: 380px;
+}
+.bottom-right img{
+    
+    height: 100%;
+}

@@ -1,0 +1,42 @@
+.main-container{
+    background-color: white;
+    margin: 0 3.5rem 0 3.5rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    font-weight: 200;
+}
+h1{
+    
+    font-weight: 300;
+}
+h3{
+    font-size: 1.7rem;
+   font-weight: 200;
+}
+::selection {
+    background: #3B763C;
+    color: #FFF;
+}
+.fullimage1{
+    
+    background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/c70b8eba-a194-42c9-b734-00bd27cda456/desk.jpg');
+    background-position: center center;
+    height: 500px;
+}
+.fullimage2{
+   
+    background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/76830279-22dd-4a34-8150-004f75a3afd9/desk.jpg');
+    background-position: center center;
+    height: 500px;
+}
+input{
+    border: none;
+    font-size: 1rem;
+}
+textarea:focus, input:focus{
+  outline: none;
+}

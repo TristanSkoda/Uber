@@ -1,0 +1,46 @@
+.map{
+    display: flex;
+    margin: 5rem 8rem 4rem 10rem;
+    height: 25rem;
+}
+.map-left{
+    padding-top: 5rem;
+    width: 30%
+}
+.map-left h1{
+    margin: 1rem 0 2rem 0;
+}
+.map-left form{
+    display: inline-grid;
+    width: 100%;
+    padding-right: 2rem;
+}
+.map-left .input-container{
+    display: flex;
+    height: 3rem;
+    border: 1px solid rgba(90, 90, 90, 0.244); 
+    width: 100%;
+    margin-bottom: 1rem;	
+}
+
+.input-container img{
+   
+    height: 100%;
+}
+.input-container input{
+   width: 100%;
+    padding: .7rem 1rem .7rem 1rem;
+}
+.input-container .input-bottom-image{
+    background-color: #C6C6C6;
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+.map-right{
+    width: 70%;
+}
+#googleMap{
+    width: 100%;
+    height:100%;
+}
+

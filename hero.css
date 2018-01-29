@@ -1,0 +1,12 @@
+.hero-container{
+    padding: 8rem 0 4rem 17rem;
+}
+.hero-container h1 {
+    font-size: 3rem;
+
+}
+.hero-container p {
+    font-size: 3rem;
+    font-weight: 200;
+
+}
