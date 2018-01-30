@@ -1,25 +1,38 @@
 header{
+    z-index: 100;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
 }
+.header-uber {
+    padding-right: 15px;
+    font-size: 1.75rem;
+    color: black;
+    font-weight: 700;
+}
 .header-container{
+   
     height: auto;
     margin: 0 3.5rem 0 3.5rem;
     position: relative;
 }
 .header-container:hover .header-bottom{
-    display: block;
+    display: block; 
+    opacity: 1;
+    top:3rem;
 }
 .header-container a:hover {
     color: #377037 ;
 }
 .header-container .header-top li:hover{
     border-top: 4px solid #3B763C;
+    transition: 1s ease all;   
 }
 .header-top{
-    height: 4rem;
+    position: relative;
+    z-index: 10;
+    height: 3rem;
     background-color: white;
     padding: 0 10% 0 10%;
 }
@@ -51,8 +64,11 @@ header{
 .header-top li{
     height: 100%;
     border-top: 4px solid #fff;
-    padding: 1rem 1rem 0 1rem; 
+    padding: 0 1rem 0 1rem; 
     margin-right: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-top-right{
     width: 50%;
@@ -64,7 +80,9 @@ header{
     cursor: pointer;
 }
 .header-bottom{
-    display: none;
+    top:0;
+    opacity: 0;
+    transition: 0.5s ease all;
     position: absolute;
     background-color: white;
     padding: 0 10% 0 10%;
@@ -82,6 +100,12 @@ header{
 .header-bottom-container ul{
     margin-right: 13rem;
 }
+.header-bottom-container ul:last-child{
+    margin-right: 0;
+}
 .header-bottom-container li{
    margin-bottom: 1rem;
 }
+.header-bottom-container li:last-child{
+    margin-bottom: 0;
+ }

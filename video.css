@@ -1,0 +1,11 @@
+.video{
+    height: 800px;
+}
+.video-container{
+    height: 100%;
+    width: 100%;
+}
+.video-container iframe{
+    height: 100%;
+    width: 100%;
+}

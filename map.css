@@ -11,14 +11,36 @@
     margin: 1rem 0 2rem 0;
 }
 .map-left form{
+    position: relative;
     display: inline-grid;
     width: 100%;
     padding-right: 2rem;
 }
+.map-left-points{
+    position: absolute;
+    height: 70px;
+    width: 1px;
+    bottom: 38px;
+    left: 13px;
+    background-color: #C6C6C6;
+}
+.point-rouge{
+    position: absolute;
+    border-radius: 50%;
+    transform: translateX(-40%);
+    bottom: 0;
+    border: 3px solid red;
+}
+.point-vert{
+    position: absolute;
+    border-radius: 50%;
+    transform: translateX(-40%);
+    border: 3px solid green;
+}
 .map-left .input-container{
     display: flex;
     height: 3rem;
-    border: 1px solid rgba(90, 90, 90, 0.244); 
+    border: 1px solid rgba(100, 32, 32, 0.244); 
     width: 100%;
     margin-bottom: 1rem;	
 }
@@ -29,7 +51,7 @@
 }
 .input-container input{
    width: 100%;
-    padding: .7rem 1rem .7rem 1rem;
+    padding: .7rem 1rem .7rem 1.5rem;
 }
 .input-container .input-bottom-image{
     background-color: #C6C6C6;
@@ -43,4 +65,5 @@
     width: 100%;
     height:100%;
 }
+
 

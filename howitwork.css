@@ -1,5 +1,5 @@
 .howitworks{
-    padding: 5rem 0 0 17rem;
+    padding: 8rem 0 0 14rem;
    
 }
 .howitworks-top .list-card{
@@ -13,7 +13,8 @@
     width: 8rem;
     height: 8rem;
     margin-bottom: 1rem;
-} .howitworks-top .card h1{
+} 
+.howitworks-top .card h1{
     
     font-size: 1.5rem;
 }
@@ -21,6 +22,14 @@
     
     margin:1.5rem 0 3rem 0;
 }
+.howitworks-top .card button{
+    background-color: #3B763C;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 3rem 1rem 1rem;
+    outline: none;
+} 
 .howitworks-bottom{
     display: flex;
 }

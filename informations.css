@@ -1,15 +1,53 @@
 .informations{
-    padding:3rem 0 3rem 15rem;
+    padding:4rem 0 4rem 15rem;
+    overflow: hidden;
+    position: relative;
+    background-color: #F8F8F9;
 }
 .informations h1{
     margin: 1rem 0 1rem 0;  
 }
+
+.point-one{
+    position: absolute;
+    left: 49%;
+    bottom: 30px;
+    height: 4px;
+    width: 4px;
+    border: 7px solid #3B763C;
+    border-radius: 50% ;
+}
+.point-tow{
+    position: absolute;
+    left: 51%;
+    bottom: 30px;
+    height: 4px;
+    width: 4px;
+    border: 7px  solid #3B763C;
+    border-radius: 50%;
+}
+.point-tow:hover ~.cards-container{
+    transform: translateX(-50%);
+    
+}
+.point-one:hover ~.cards-container{
+    transform: translateX(0);
+    
+}
+.informations .cards-container{
+    transition: 0.4s ease all;
+}
 .informations .list-card{
-    display: flex;
-    height: 30rem;
+   display: flex;
+    width: 200%;
 }
 .informations .list-card .card{
     width: 30rem;
+    background-color: #ffff;
+    margin-right: 1rem;
+}
+.informations .list-card .card:last-child{
+    margin-right: 0;
 }
 .informations .list-card .card-image1{
     background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/8e1f056b-bbe8-4910-b477-9ebe9c1356e6/desk.jpg');
@@ -57,5 +95,3 @@
 .informations .list-card .card-text p{
     padding-top: 1.5rem;
  }
-
-

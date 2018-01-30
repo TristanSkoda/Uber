@@ -1,0 +1,30 @@
+.newapp{
+    width: 100%;
+    height:700px;
+    padding: 5rem;
+    display: flex;
+    background-color: #f1f1f1;
+}
+.newapp-text{
+background-color: #ffff;
+    width: 30%;
+    padding: 2.5rem;
+}
+.newapp-text p{
+    margin-bottom: 1rem;
+}
+.newapp-text a{
+   color: #3B763C;
+}
+.newapp-text h1{
+    padding: 1rem 0 1rem 0 ;
+}
+
+.newapp-image{
+
+    background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/d11d3c8b-1854-423b-a242-0bc00861f75a/desk.jpg');
+    background-size: cover ;
+    background-position: center ;
+    
+    width: 70%;
+}

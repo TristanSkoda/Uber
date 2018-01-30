@@ -1,0 +1,26 @@
+.worldwide{
+    background-color: #F8F8F9;
+    padding: 6rem 10rem;
+}
+.worldwide-container{
+    padding-left: 5rem;
+}
+.worldwide-container h3{
+    margin-bottom: 2rem;
+}
+.worldwide-input{
+    background-color: #ffff;
+    width: 30%;
+    height: 45px;
+    display: flex;
+}
+.worldwide-input input{
+    width: 100%;
+}
+.worldwide-input button{
+    width: 50px;
+    background-color: #3B763C;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
