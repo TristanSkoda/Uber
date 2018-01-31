@@ -41,3 +41,6 @@ input{
 textarea:focus, input:focus{
   outline: none;
 }
+::-webkit-input-placeholder {
+    color:rgba(163, 163, 163, 0.944); 
+  }
